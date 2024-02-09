@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*, :root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Inter', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: #f1eee7;
+  margin: 0 2rem 2rem 2rem;
+}
+
+main {
+  padding: 2rem;
+  max-width: 1320px;
+}
+
+header {
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #f1ac09;
+  border-bottom-style: dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+img { 
+  width: 3rem;
+  height: 3rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: rgb(54, 51, 51);
+}
+
+#quiz {
+  counter-reset: quiz-item;
+}
+
+.quiz-item {
+  margin-top: 1.5rem;
+  border: 1px solid #a83b72d7;
+  border-radius: 6px;
+
+  overflow: hidden;
+}
+
+.quiz-item h3 {
+  padding: 1rem 1.5rem;
+  color: rgb(255, 255, 255);
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  background-color: #d77c32e8;
+}
+
+.quiz-item h3:before {
+  counter-increment: quiz-item;
+  content: counter(quiz-item);
+
+  background-color: #e4b4f5b0;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.quiz-item dl {
+  padding: 1rem 1.5rem;
+
+  display: grid;
+  gap: 0.5rem;
+}
+
+.quiz-item dl dt {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  color: rgb(27, 27, 27);
+}
+
+input {
+  all: unset;
+  border: 1px solid #adadad; 
+  width: 1rem;
+  height: 1rem;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+input:checked {
+  border: 1px solid #e986b8d3;
+}
+
+input:checked:before {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #e7529dd3;
+  border-radius: 50%;
+}
+
+#acertos {
+  text-align: center;
+  color: white;
+  background: linear-gradient(to right, #a83b72, #e986b8, #e9a63b, #e4b4f5);
+  
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  
+  padding: 0.5rem;
+}
