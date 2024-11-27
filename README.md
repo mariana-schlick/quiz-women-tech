@@ -1,64 +1,27 @@
-# Quiz: Quanto você sabe sobre mulheres na tecnologia?
+# Projeto: Quiz - Quanto Você Sabe sobre Mulheres na Tecnologia?
 
-Este é um quiz interativo para testar seus conhecimentos sobre as mulheres que marcaram a história da ciência e da tecnologia. As perguntas abordam temas sobre pioneiras da computação, matemática, física, e outras áreas da ciência.
+Este projeto foi desenvolvido com o objetivo de proporcionar uma experiência educativa e interativa sobre a história das mulheres na tecnologia, destacando suas contribuições significativas ao longo do tempo. Através de um quiz online, o projeto visa não apenas testar o conhecimento sobre figuras femininas de destaque nas ciências, como Ada Lovelace, Marie Curie e Katherine Johnson, mas também educar e sensibilizar as pessoas sobre a importância dessas pioneiras para o avanço da tecnologia e da ciência.
 
-## Como Jogar
-- Responda as perguntas selecionando a opção correta.
-- Cada pergunta tem 4 alternativas, sendo apenas uma a correta.
-- No final, você verá quantas respostas acertou.
+## Aprendizados Envolvidos
 
-## Perguntas:
+### 1. **Desenvolvimento Web e Interatividade**
+   - A construção deste projeto proporcionou um aprendizado técnico valioso, especialmente nas áreas de **HTML**, **CSS** e **JavaScript**. 
+   - Com o uso de **templates**, foi possível implementar um sistema dinâmico de perguntas e respostas que cria uma experiência interativa.
+   - Aprendizado nas habilidades de manipulação do DOM e uso de `querySelector` para seleção de elementos, além de manipulação de eventos com `onchange` para atualizar o número de respostas corretas em tempo real.
 
-1. **Quem foi a primeira mulher a ganhar o Prêmio Nobel, em 1903, por suas pesquisas sobre a radioatividade?**
-   - A) Marie Curie
-   - B) Rosalind Franklin
-   - C) Barbara McClintock
+### 2. **Valorização Histórica das Mulheres na Tecnologia**
+   - O quiz foi estruturado para destacar as histórias de mulheres que desempenharam papéis essenciais na evolução da tecnologia e das ciências exatas. 
+   - Aprendemos sobre a importância de figuras como **Ada Lovelace**, reconhecida como a primeira programadora de computador, **Marie Curie**, pioneira no estudo da radioatividade, e **Katherine Johnson**, que foi crucial para o sucesso de missões espaciais da NASA.
+   - O projeto reforça a ideia de que a história da tecnologia não é dominada apenas por homens, mas foi moldada por inúmeras mulheres que, muitas vezes, não receberam o reconhecimento devido em suas épocas.
 
-2. **Qual foi a contribuição mais significativa de Ada Lovelace para a computação?**
-   - A) Desenvolvimento do primeiro computador eletrônico
-   - B) Formulação do primeiro algoritmo destinado a ser processado por uma máquina
-   - C) Criação do primeiro sistema operacional
+### 3. **Importância para as Mulheres**
+   - Este quiz serve como um lembrete de que a presença feminina em campos técnicos e científicos é histórica e essencial. Muitas dessas mulheres enfrentaram imensos desafios, como o preconceito de gênero e a falta de oportunidades, mas suas descobertas e inovações continuam a impactar a sociedade até hoje.
+   - A criação desse quiz também busca inspirar futuras gerações de mulheres a seguir carreiras em tecnologia, mostrando que, apesar das dificuldades, o impacto delas é imensurável e essencial para o progresso da ciência e inovação.
 
-3. **Quem foi a primeira mulher negra, médica, a viajar para o espaço, em 1992?**
-   - A) Sally Ride
-   - B) Valentina Tereshkova
-   - C) Mae Jemison
+## Sentimento e Conexão Pessoal
 
-4. **Qual cientista contribuiu na realização de cálculos cruciais para missões espaciais?**
-   - A) Katherine Johnson
-   - B) Rosalind Franklin
-   - C) Barbara McClintock
+Este projeto não é apenas uma atividade técnica, mas também uma homenagem pessoal. Ele reflete meu desejo de compartilhar com outras mulheres, especialmente aquelas que ainda estão descobrindo seu lugar no mundo da tecnologia, as histórias de mulheres incríveis que vieram antes delas. Acredito que iniciativas como essa podem inspirar, empoderar e encorajar muitas a buscarem o seu espaço em áreas onde tradicionalmente foram sub-representadas.
 
-5. **Quem foi a primeira mulher a ser premiada com uma Medalha Fields, considerada o 'Nobel da Matemática'?**
-   - A) Ada Lovelace
-   - B) Emmy Noether
-   - C) Mary Jackson
-
-6. **Pelo que Barbara McClintock foi premiada com o Prêmio Nobel?**
-   - A) Pela descoberta dos elementos químicos
-   - B) Pela descoberta das transposições genéticas
-   - C) Pela teoria da evolução das espécies
-
-7. **Qual foi a principal contribuição de Grace Hopper para a ciência da computação?**
-   - A) Desenvolvimento do primeiro computador pessoal
-   - B) Criação da primeira linguagem de programação compilada
-   - C) Invenção do mouse de computador
-
-8. **Qual cientista brasileira é reconhecida por sua contribuição para o desenvolvimento da mecânica quântica?**
-   - A) Rita Levi-Montalcini
-   - B) Emmy Noether
-   - C) Cecília Payne-Gaposchkin
-
-9. **Quem foi a primeira mulher engenheira afro-americana na NASA?**
-   - A) Mary Jackson
-   - B) Rosalind Franklin
-   - C) Barbara McClintock
-
-10. **Qual é o principal projeto de pesquisa de Beatriz Barros, pesquisadora brasileira, atualmente?**
-    - A) Desenvolvimento de assistentes virtuais para empresas
-    - B) Aplicação de inteligência artificial na medicina
-    - C) Análise de dados para previsão de desastres naturais
-
----
+Ao criar esse quiz, pude refletir sobre minha própria jornada, a busca por espaços para mulheres na tecnologia e o impacto de cada passo dado por essas figuras históricas. Isso não é só uma ferramenta de aprendizado, mas também um lembrete de que cada mulher tem o poder de deixar sua marca no mundo, assim como as pioneiras que moldaram o campo da tecnologia.
 
 Boa sorte! Teste seu conhecimento sobre essas incríveis mulheres e descubra quantas você acertou!
